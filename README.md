@@ -32,6 +32,8 @@
 - wagner_meistersinger.mid
   Wilhelm Richard Wagner 作曲 Die Meistersinger von Nürnberg 第1幕への前奏曲のシークエンスファイル。
   のこぎり波と矩形波を使用。
+- 説明.md
+  プログラムの説明。
 
 ## 使用方法と仕様
 ### コンパイル
