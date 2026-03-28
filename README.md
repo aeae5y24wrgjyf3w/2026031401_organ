@@ -10,29 +10,29 @@
 - コンパイラ : gcc version 8.1.0
 
 ## ディレクトリ構成
-- 2026031402_io.h\
+- [2026031402_io.h](./2026031402_io.h)\
   共通インターフェース。
-- 2026031403_static_saw.c\
+- [2026031403_static_saw.c](./2026031403_static_saw.c)\
   2026031402_io.hの実装例1。任意の周波数の最大8個ののこぎり波を鳴らす。負荷が一定なためリアルタイム用途に向いている。\
   現状ピタゴラス音律に調律されている。
-- 2026031404_dynamic_saw.c\
+- [2026031404_dynamic_saw.c](./2026031404_dynamic_saw.c)\
   2026031402_io.hの実装例2。任意の周波数の任意の個数ののこぎり波を鳴らす。鳴らす音が1音増えるごとに動作が2倍遅くなる。\
   現状キルンベルガー第一調律に調律されている。
-- 2026031405_dynamic_saw_square.c\
+- [2026031405_dynamic_saw_square.c](./2026031405_dynamic_saw_square.c)\
   2026031402_io.hの実装例3。任意の周波数の任意の個数ののこぎり波と矩形波を鳴らす。鳴らす音が1音増えるごとに動作が2倍遅くなる。\
   MIDIチャンネルが偶数ならばのこぎり波、奇数ならば矩形波になる。\
   現状キルンベルガー第一調律に調律されている。
-- 2026031406_smf2wav.c\
+- [2026031406_smf2wav.c](./2026031406_smf2wav.c)\
   ホストプログラムのサンプル。
-- beethoven_fate.mid\
+- [beethoven_fate.mid](./beethoven_fate.mid)\
   Ludwig van Beethoven between 作曲 交響曲第5番第1楽章のシークエンスファイル。\
   のこぎり波のみ使用。
-- readme.txt\
+- READEME.md\
   本ファイル。
-- wagner_meistersinger.mid\
+- [wagner_meistersinger.mid](./wagner_meistersinger.mid)\
   Wilhelm Richard Wagner 作曲 Die Meistersinger von Nürnberg 第1幕への前奏曲のシークエンスファイル。\
   のこぎり波と矩形波を使用。
-- 説明.md\
+- [説明.md](./説明.md)\
   プログラムの説明。
 
 ## 使用方法と仕様
